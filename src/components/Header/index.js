@@ -25,7 +25,7 @@ const Header = () => (
             type="button"
             data-testid="hamburgerIconButton"
           >
-            <GiHamburgerMenu size="30" />
+            <GiHamburgerMenu size="30" aria-label="menu" /> //icon text
           </button>
         }
         className="popup-content"
@@ -39,7 +39,7 @@ const Header = () => (
                 data-testid="closeButton"
                 onClick={() => close()}
               >
-                <IoMdClose size="30" color="#616e7c" />
+                <IoMdClose size="30" color="#616e7c" aria-label="close" /> //icon text
               </button>
               <ul className="nav-links-list">
                 <li className="nav-link-item">
